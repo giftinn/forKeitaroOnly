@@ -10,7 +10,7 @@ const SecretLetterPage: React.FC<SecretLetterPageProps> = ({ onBackToStart }) =>
   const [displayedText, setDisplayedText] = useState('');
   const [showFinalMessage, setShowFinalMessage] = useState(false);
 
-  const fullText = `Happy birthday to the person who owns my heart, even from miles apart.
+  const fullText = `Happy 1st mensiversary to the person who owns my heart, even from miles apart.
 It still feels a little unreal that we’re here, even though it’s only been a month. But honestly, i’m really grateful for you. I know you’ve been busy and tired lately, and maybe life’s been a lot, but i just want you to know that i see your effort, and i’m proud of you for showing up every day. even when it’s not easy.
 
 Thank you for being here with me, for choosing to stay, and for letting me get to know you this close. You don’t have to do anything big; just having you around already means a lot. I hope today gives you even a little bit of rest and reminds you that you’re cared for. especially by me.
@@ -125,3 +125,4 @@ Happy one month, love.`;
 
 
 export default SecretLetterPage;
+
