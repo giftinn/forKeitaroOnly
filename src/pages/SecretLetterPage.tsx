@@ -11,14 +11,12 @@ const SecretLetterPage: React.FC<SecretLetterPageProps> = ({ onBackToStart }) =>
   const [showFinalMessage, setShowFinalMessage] = useState(false);
 
   const fullText = `Happy birthday to the person who owns my heart, even from miles apart.
-I know you've been really busy lately with your studies, and maybe a bit tired or overwhelmed, but I just want you to know how proud I am of you.
-You've been giving your best, even when things get tough, and that's one of the many reasons I love you so much.
-On your special day, I hope you take a little break and remember that you're so loved not just by the people around you, but especially by me.
-I wish I could be there to hug you, to celebrate with you, and to see your smile and hear your voice.
-Even though distance keeps us apart, my heart never left your side.
-You're my peace, my favorite person, and the one I always root for.
-I hope this message makes you feel how much I love and miss you.
-Happy birthday, my love`;
+It still feels a little unreal that we’re here, even though it’s only been a month. But honestly, i’m really grateful for you. I know you’ve been busy and tired lately, and maybe life’s been a lot, but i just want you to know that i see your effort, and i’m proud of you for showing up every day. even when it’s not easy.
+
+Thank you for being here with me, for choosing to stay, and for letting me get to know you this close. You don’t have to do anything big; just having you around already means a lot. I hope today gives you even a little bit of rest and reminds you that you’re cared for. especially by me.
+
+I wish i could be there with you, but even if we’re not side by side, my feelings don’t really go anywhere. I care about you in a simple way, and i want you to feel it.
+Happy one month, love.`;
 
   useEffect(() => {
     let currentIndex = 0;
@@ -92,7 +90,7 @@ Happy birthday, my love`;
               animate={{ scale: [1, 1.05, 1] }}
               transition={{ duration: 2, repeat: Infinity }}
               className="text-xl sm:text-2xl font-bold text-pink-800 px-4"
-            >I love you forever, my baby 💞</motion.div>
+            >I’m glad it’s you, sayangg</motion.div>
 
             {/* Final decorative hearts */}
             <motion.div
@@ -124,5 +122,6 @@ Happy birthday, my love`;
     </div>
   );
 };
+
 
 export default SecretLetterPage;
